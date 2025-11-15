@@ -9,7 +9,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Pigsense extends JavaPlugin {
 
-    private static Pigsense instance;
     private DataManager dataManager;
     private CheckManager checkManager;
 
