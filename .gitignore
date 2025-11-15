@@ -1,0 +1,93 @@
+# ===========================
+# Java / Gradle
+# ===========================
+
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Gradle build dirs
+/build/
+out/
+bin/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle cache
+.gradle/
+**/build/
+**/out/
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/dictionaries
+.idea/**/libraries
+
+# JetBrains cache
+.idea/**/caches/
+.idea/**/codeStyles/
+.idea/**/gradle.xml
+.idea/**/jarRepositories.xml
+
+# ===========================
+# OS files
+# ===========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===========================
+# Logs
+# ===========================
+
+*.log
+logs/
+log/
+
+# ===========================
+# Minecraft Plugin-specific
+# ===========================
+
+# don't commit compiled jars
+*.jar
+!pigSense-dev.jar
+
+# server test folder (если тестируешь локально)
+run/
+server/
+paper/
+plugins-old/
+test-server/
+
+# ===========================
+# Misc
+# ===========================
+
+*.tmp
+*.swp
+*.swo
+.cache/

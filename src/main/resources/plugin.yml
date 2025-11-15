@@ -1,0 +1,7 @@
+name: PigSense
+version: ''
+main: com.pigsense.anticheat.Pigsense
+api-version: '1.16'
+authors: [ finikov ]
+description: Lightweight Anti-Cheat made with <3 by finikov
+
